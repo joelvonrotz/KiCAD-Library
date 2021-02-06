@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF-MSMF050-2
+D PTC RESET FUSE 15V 500MA 1812
+F https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP RESO_CSTNE20M0V530000R0
+D Resonator 20MHz with integrated 15pF
+F https://www.murata.com/en/products/productdata/8801161510942/SPEC-CSTNE20M0V530000R0.pdf
+$ENDCMP
+#
+$CMP capacitor_0805
+K capacitor
+$ENDCMP
+#
+$CMP resistor_0805
+K resistor
+$ENDCMP
+#
+#End Doc Library

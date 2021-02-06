@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP SHIELD
+D Power symbol creates a global label with name "SHIELD"
+K power-flag
+$ENDCMP
+#
+$CMP VCC
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VUSB
+D Power symbol creates a global label with name "VUSB"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

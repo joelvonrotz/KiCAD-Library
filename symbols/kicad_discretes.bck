@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSS1P3L-M3_89A
+D DIODE SCHOTTKY 30V 1A MICROSMP ; 500mV @ 1A
+F http://www.vishay.com/docs/89020/mss1p3l.pdf
+$ENDCMP
+#
+#End Doc Library

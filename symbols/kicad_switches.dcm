@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KMR731NG_LFS
+D SWITCH TACTILE SPST-NO 50MA 32V ; NO Ground Pin
+K Switches Input Button Tactile
+F https://www.ckswitches.com/media/1908/kmr7.pdf
+$ENDCMP
+#
+$CMP KSC701J_LFS
+D SWITCH TACTILE SPST-NO 0.05A 32V
+K Switches Input Button Tactile
+F https://www.ckswitches.com/media/1973/ksc7.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP capacitor_0805
+K capacitor
+$ENDCMP
+#
+$CMP capacitor_0805_custom
+K capacitor
+$ENDCMP
+#
+$CMP capacitor_custom
+K capacitor
+$ENDCMP
+#
+$CMP resistor_0805
+K resistor
+$ENDCMP
+#
+$CMP resistor_custom
+K resistor
+$ENDCMP
+#
+#End Doc Library

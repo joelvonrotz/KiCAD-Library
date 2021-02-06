@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Rounded_2mm
+D Testpoint rounded rectangle ; 2mm
+$ENDCMP
+#
+#End Doc Library

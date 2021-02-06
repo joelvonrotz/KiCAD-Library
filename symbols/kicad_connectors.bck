@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SL_2540_2P
+K connector
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP SL_2540_2x3P
+K connector
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP SL_2540_3P
+K connector
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP SL_2540_8P
+K connector
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+#End Doc Library
