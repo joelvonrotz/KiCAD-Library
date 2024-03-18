@@ -1,0 +1,218 @@
+(footprint "20021121-00010C4LF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83cab5af-fedf-4d19-8ca6-d86040310059")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45cc1265-336f-465a-88fb-aaa770fec245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7194ae9-365d-4515-a694-289ded9a3130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5c59e0f-8e6d-461b-978c-656f46ce4cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59ae087e-0b63-40f7-b12d-2c52ce3e5d5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -2)
+		(end -3.2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e77a67a-21ca-4c81-83ee-d8afd7db35dc")
+	)
+	(fp_line
+		(start 3.2 -2)
+		(end 3.2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cdb9039-88bd-47d6-88f2-17e32c9a7126")
+	)
+	(fp_rect
+		(start -3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e8a1b531-f1af-4ecd-932c-dcd9d29efb81")
+	)
+	(fp_text user "1"
+		(at -3.799999 1.8 -90)
+		(layer "F.SilkS")
+		(uuid "490645a5-adc9-4d13-b093-1ad70dce234e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -2.2 1.4 90)
+		(layer "F.Fab")
+		(uuid "012753dc-4eb1-4cbb-8a14-d7ea41c0dc97")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea6c8678-c0d0-4967-a8c4-587c671ba876")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "65ac3d8d-d32e-44fe-a242-8d902d9ca288")
+	)
+	(pad "2" smd rect
+		(at -2.54 -1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8bad4901-06a0-4ee6-a7e0-0ba2a95148d9")
+	)
+	(pad "3" smd rect
+		(at -1.27 1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "68f4317c-b75d-4878-86d8-3de2fd5763db")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "67bc7538-eae2-4ae3-9ea4-db5ce9f0c0b6")
+	)
+	(pad "5" smd rect
+		(at 0 1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1197aade-2c98-4a2a-818b-a713a3232841")
+	)
+	(pad "6" smd rect
+		(at 0 -1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5f171825-a143-4b84-a880-a3d200aacebb")
+	)
+	(pad "7" smd rect
+		(at 1.27 1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4351a11f-40ea-462d-ab93-e7d0e746fa52")
+	)
+	(pad "8" smd rect
+		(at 1.27 -1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "258aca2a-20d2-4116-8d12-a7a01329a0c5")
+	)
+	(pad "9" smd rect
+		(at 2.54 1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "767913b7-5745-4752-b876-fc19a0c6ec56")
+	)
+	(pad "10" smd rect
+		(at 2.54 -1.95 180)
+		(size 0.76 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e59b604b-d72e-4f8a-b24c-cb8fabe1f72e")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/Amphenol/20021121-00010C4LF.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -54,7 +54,7 @@
   (pad "26" smd rect (at 3.5 -2.925 180) (size 2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48016a16-8602-46dd-bd85-d3687867709e))
   (pad "27" smd rect (at 3.5 -3.575 180) (size 2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 092f439c-150d-415b-8b93-adf5f43b88bb))
   (pad "28" smd rect (at 3.5 -4.225 180) (size 2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 62572e48-123e-40e3-bbac-e4ee3d41f626))
-  (model "${KICAD_3D_MODELS}/Package_SO/SSOP-28_5.3x10.2mm_P0.65mm.step"
+  (model "${KICAD_USER_3DMODEL_DIR}/Package_SO/SSOP-28_5.3x10.2mm_P0.65mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

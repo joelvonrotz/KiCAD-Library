@@ -18,7 +18,7 @@
   (fp_arc (start 2.275 0) (end 2.275 -0.575) (angle -180) (layer F.Fab) (width 0.12))
   (pad 1 smd rect (at -2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD_3D_MODELS}/Bourns/Resettable Multifuse/mf-msmf050.stp"
+  (model "${KICAD_USER_3DMODEL_DIR}/Bourns/Resettable Multifuse/mf-msmf050.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

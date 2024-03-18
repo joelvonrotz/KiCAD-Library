@@ -36,7 +36,7 @@
     (zone_connect 0))
   (pad 5 smd rect (at 4.8 1.6 90) (size 0.5 1.6) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0))
-  (model ${KICAD_3D_MODELS}/Molex/USB/Mini/513870578.stp
+  (model ${KICAD_USER_3DMODEL_DIR}/Molex/USB/Mini/513870578.stp
     (offset (xyz -1.2 0 2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -28,7 +28,7 @@
   (pad 4 thru_hole circle (at 0 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 2.54 1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 2.54 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD_3D_MODELS}/Samtec/TSW/double/TSW-103-07-G-D.stp
+  (model ${KICAD_USER_3DMODEL_DIR}/Samtec/TSW/double/TSW-103-07-G-D.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

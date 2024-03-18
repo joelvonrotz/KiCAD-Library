@@ -38,7 +38,7 @@
     ) (layer "F.Fab") (width 0.12) (fill solid) (tstamp 7c78ac6e-4741-4718-9f69-92b018410c98))
   (pad "1" smd roundrect (at 0.65 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.091) (tstamp 201da9bb-18a8-4628-9f72-99fe7bd0fa03))
   (pad "2" smd roundrect (at -1.25 0) (size 2 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.091) (tstamp b1c9b65b-80b5-4113-9a9c-1b6fb2c1c939))
-  (model "${KICAD_3D_MODELS}/Discretes/DO-219AD v1.step"
+  (model "${KICAD_USER_3DMODEL_DIR}/Discretes/DO-219AD v1.step"
     (offset (xyz -0.325 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

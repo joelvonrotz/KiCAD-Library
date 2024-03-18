@@ -26,7 +26,7 @@
   (fp_line (start -1 -0.5) (end -1 0.5) (layer "F.Fab") (width 0.1) (tstamp a9ca37b3-d0be-4022-acd0-baf378937a34))
   (pad "1" smd rect (at -0.95 0) (size 0.7 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8a6a411d-204d-43ed-94fb-e96e770c773b))
   (pad "2" smd rect (at 0.95 0) (size 0.7 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9bcbe648-8b58-4679-b991-5ade9ccff5d7))
-  (model "${KICAD_3D_MODELS}/resistor/smd/RES0805.stp"
+  (model "${KICAD_USER_3DMODEL_DIR}/resistor/smd/RES0805.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
