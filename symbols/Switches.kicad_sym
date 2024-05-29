@@ -2,40 +2,30 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "KMR731NG_LFS"
+	(symbol "DIP-Switch_1pos"
 		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
-			(at 1.27 3.81 0)
+		(property "Reference" "S"
+			(at 3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KMR731NG_LFS"
-			(at 2.54 -2.54 0)
+		(property "Value" ""
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kicad_switches:KMR7"
-			(at 7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1908/kmr7.pdf"
-			(at 7.62 5.08 0)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 50MA 32V ; NO Ground Pin"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,8 +42,8 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Switches Input Button Tactile"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,24 +51,46 @@
 				(hide yes)
 			)
 		)
-		(symbol "KMR731NG_LFS_0_1"
+		(symbol "DIP-Switch_1pos_0_1"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 3.81 1.27)
+					(xy 3.556 0.127) (xy 6.858 1.778)
 				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.858 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
 		)
-		(symbol "KMR731NG_LFS_1_1"
-			(pin bidirectional line
+		(symbol "DIP-Switch_1pos_1_1"
+			(pin passive line
 				(at 0 0 0)
-				(length 1.27)
+				(length 3.048)
 				(name "1"
 					(effects
 						(font
@@ -94,9 +106,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 5.08 0 180)
-				(length 1.27)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 3.048)
 				(name "2"
 					(effects
 						(font
@@ -209,6 +221,140 @@
 			(pin bidirectional line
 				(at 5.08 0 180)
 				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "OFF-(ON)"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OFF-(ON)"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 7.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.62 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Switches Input Button Tactile"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OFF-(ON)_0_1"
+			(polyline
+				(pts
+					(xy 3.556 0.127) (xy 6.858 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.858 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "OFF-(ON)_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 3.048)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 3.048)
 				(name "2"
 					(effects
 						(font
