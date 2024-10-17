@@ -8,6 +8,6 @@
      "type": "REST_API",
      "api_version": "v1",
      "root_url": "http://localhost:8080/en/kicad-api/",
-     "token": "[GENERATED TOKEN HERE]"
+     "token": "tcp_4084c83479f387e144eb43b15f81c6ba50e20cfcf324f18c0b3edfe077fa4eb5"
  }
 }    
