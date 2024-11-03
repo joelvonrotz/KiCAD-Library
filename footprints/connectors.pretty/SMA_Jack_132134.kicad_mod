@@ -1,0 +1,185 @@
+(footprint "SMA_Jack_132134"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4b0c7c5-bc06-4663-a2a5-b11bd60b0343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "SMA_Jack_132134"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19a0b451-8364-4920-a9de-398fc4e8279c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ceb2d32-8035-4be6-b0c4-34a93fae524d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "466c7a2f-bf70-4fbd-9485-7dd3a221fcb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a25db93-17c6-42e9-b17c-d69d2b64a3d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -1.4)
+		(end -3.6 1.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "097807c8-ec13-41f3-afbf-8f2af5002b50")
+	)
+	(fp_line
+		(start -1.4 -3.6)
+		(end 1.4 -3.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3e998d0-9890-4b46-b8f0-054a58326857")
+	)
+	(fp_line
+		(start 1.4 3.6)
+		(end -1.4 3.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "428091db-87f3-4cf5-ab20-66b2f0a35b9c")
+	)
+	(fp_line
+		(start 3.6 1.4)
+		(end 3.6 -1.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b2481b9-8e49-4586-9155-e284007ef6c8")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "55c68b4e-b5e7-4aea-b5ac-441b0a2a0b2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ebc33ab1-eca8-4e7a-b599-975818644918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0e9f933-d412-41e9-aad2-78b8dba5beca")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25bf1c43-921c-483d-a014-0d3c4cf5698f")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b9814af-8560-405a-bad4-0d546793ede1")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b46026ec-72d3-4e4a-a097-a37ca801ad6d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "499c3363-2db4-477b-8637-bc8bf58008bb")
+	)
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/Amphenol/sma_straight_tht_jack_132134.stp"
+		(offset
+			(xyz 0 0 9.53)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
