@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +61,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -215,7 +218,7 @@
 		(roundrect_rratio 0.07142857143)
 		(uuid "0b5a3729-edb3-4bb2-97bb-104bf73e4bbf")
 	)
-	(model "${KICAD_USER_3DMODEL_DIR}/resistor/smd/RES0805.stp"
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/resistor/smd/RES0805.stp"
 		(offset
 			(xyz -0.95 0 0)
 		)

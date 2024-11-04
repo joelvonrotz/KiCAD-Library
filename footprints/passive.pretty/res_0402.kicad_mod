@@ -1,10 +1,10 @@
-(footprint "res_0603"
+(footprint "res_0402"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 1.4 0)
+		(at 0 1.778 0)
 		(layer "F.SilkS")
 		(uuid "97846007-050c-419e-9b8a-69c25944b547")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "res_0603"
-		(at 0 -2.286 0)
+	(property "Value" "res_0402"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "6a55e82c-d9f3-44e0-9840-548f1508f9e5")
@@ -28,10 +28,9 @@
 	)
 	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "65d1e3d3-7831-41c4-9b5d-19708f39d483")
+		(uuid "ba226fda-3172-43ca-ac03-ee2523fe6925")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,10 +40,9 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd1ea115-9ead-4b0b-aa17-c8f9c1c6fbe1")
+		(uuid "3163074e-a9ec-4884-9cf6-00a65bd3c556")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,10 +52,9 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a8ce567-90c4-4c37-babb-67e42225db47")
+		(uuid "7f763510-9696-4376-9a3c-0ff842663f88")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,8 +64,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.45 -0.65)
-		(end -1.45 0.65)
+		(start -0.95 -0.5)
+		(end -0.95 0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -77,8 +74,8 @@
 		(uuid "699d29e0-a030-4fdd-a263-d48c20bd508b")
 	)
 	(fp_line
-		(start -1.45 0.65)
-		(end -0.95 0.65)
+		(start -0.95 0.5)
+		(end -0.55 0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -87,8 +84,8 @@
 		(uuid "097e0edc-0bee-47b5-b180-d68199aa4ff8")
 	)
 	(fp_line
-		(start -0.95 -0.65)
-		(end -1.45 -0.65)
+		(start -0.55 -0.5)
+		(end -0.95 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -97,38 +94,38 @@
 		(uuid "7713a595-9783-456a-b872-e287f366565c")
 	)
 	(fp_line
-		(start 0.95 0.65)
-		(end 1.45 0.65)
+		(start 0.55 0.5)
+		(end 0.95 0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "995b10dd-0431-443f-bf81-7f91b69e4482")
+		(uuid "0edd09b7-afab-413a-b7e1-a055051e9884")
 	)
 	(fp_line
-		(start 1.45 -0.65)
-		(end 0.95 -0.65)
+		(start 0.95 -0.5)
+		(end 0.55 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e6d995d8-87f0-44d3-aceb-5d2762a8518b")
+		(uuid "0cedd3e0-3796-4d09-9ccd-b211eaa00680")
 	)
 	(fp_line
-		(start 1.45 0.65)
-		(end 1.45 -0.65)
+		(start 0.95 0.5)
+		(end 0.95 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "16a94bcb-5e34-4c7a-b52c-734a037b51eb")
+		(uuid "c7972fb3-96fa-4766-80ed-afc545854923")
 	)
 	(fp_line
-		(start -1 -0.5)
-		(end -1 0.5)
+		(start -0.5 -0.25)
+		(end -0.5 0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -137,8 +134,8 @@
 		(uuid "a9ca37b3-d0be-4022-acd0-baf378937a34")
 	)
 	(fp_line
-		(start -1 0.5)
-		(end 1 0.5)
+		(start -0.5 0.25)
+		(end 0.5 0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -147,8 +144,8 @@
 		(uuid "8bb5768b-eef7-4bd7-ba83-5342f0c87c55")
 	)
 	(fp_line
-		(start 1 -0.5)
-		(end -1 -0.5)
+		(start 0.5 -0.25)
+		(end -0.5 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -157,8 +154,8 @@
 		(uuid "23993c88-8623-4417-86a3-d34de7ceb975")
 	)
 	(fp_line
-		(start 1 0.5)
-		(end 1 -0.5)
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,20 +175,20 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.85 0)
-		(size 0.8 0.9)
+		(at -0.475 0)
+		(size 0.55 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.125)
+		(roundrect_rratio 0.1)
 		(uuid "8a6a411d-204d-43ed-94fb-e96e770c773b")
 	)
 	(pad "2" smd roundrect
-		(at 0.85 0)
-		(size 0.8 0.9)
+		(at 0.475 0)
+		(size 0.55 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.125)
+		(roundrect_rratio 0.1)
 		(uuid "9bcbe648-8b58-4679-b991-5ade9ccff5d7")
 	)
-	(model "${KICAD_USER_BASE_DIR}/3dmodels/resistor/smd/RES0603.stp"
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/resistor/smd/RES0402.stp"
 		(offset
 			(xyz 0 0 0)
 		)
