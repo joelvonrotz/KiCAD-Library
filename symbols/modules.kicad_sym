@@ -49,6 +49,18 @@
 				(hide yes)
 			)
 		)
+		(symbol "ublox_saraR520_0_1"
+			(text "hihi"
+				(at 5.08 -73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 245 245 186 0.72)
+					)
+					(justify left)
+				)
+			)
+		)
 		(symbol "ublox_saraR520_1_1"
 			(rectangle
 				(start 0 0)
