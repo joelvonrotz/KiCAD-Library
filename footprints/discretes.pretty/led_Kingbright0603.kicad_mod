@@ -182,6 +182,7 @@
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
 		(uuid "b829b488-8c42-49e9-8f33-1345ec0a851b")
 	)
 	(pad "2" smd roundrect
@@ -189,6 +190,7 @@
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
 		(uuid "201da9bb-18a8-4628-9f72-99fe7bd0fa03")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Kingbright/APT1608.STEP"

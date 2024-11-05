@@ -202,6 +202,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "7403cba5-e5bd-4854-b9e7-fa83c3df5829")
 	)
 	(pad "2" thru_hole circle
@@ -210,6 +211,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "2966d1df-4491-4914-8f98-26e90c4ca938")
 	)
 	(pad "3" thru_hole circle
@@ -218,6 +220,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "a4d2dfff-479c-40f6-beb5-121de58905e5")
 	)
 	(pad "4" thru_hole circle
@@ -226,6 +229,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "22a76e0a-6e0a-4316-8a74-f294b500cd67")
 	)
 	(pad "5" thru_hole circle
@@ -234,6 +238,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "3aff3d0b-5241-47d7-a198-46c3a385e918")
 	)
 	(pad "6" thru_hole circle
@@ -242,6 +247,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "758830da-5ffa-464e-85db-e11d1ffe4e18")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Samtec/TSW/double/TSW-103-07-G-D.stp"

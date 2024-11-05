@@ -180,7 +180,7 @@
 		(size 2.2 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.07142857143)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "96a8a3b4-9a4d-4570-80fb-a3b3197b74c2")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Harwin/testpoints/s2751-46r.step"

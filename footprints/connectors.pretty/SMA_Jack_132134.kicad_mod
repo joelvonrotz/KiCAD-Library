@@ -137,6 +137,7 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "c0e9f933-d412-41e9-aad2-78b8dba5beca")
 	)
 	(pad "2" thru_hole circle
@@ -145,6 +146,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "25bf1c43-921c-483d-a014-0d3c4cf5698f")
 	)
 	(pad "2" thru_hole circle
@@ -153,6 +155,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "4b9814af-8560-405a-bad4-0d546793ede1")
 	)
 	(pad "2" thru_hole circle
@@ -161,6 +164,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "b46026ec-72d3-4e4a-a097-a37ca801ad6d")
 	)
 	(pad "2" thru_hole circle
@@ -169,6 +173,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "499c3363-2db4-477b-8637-bc8bf58008bb")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Amphenol/sma_straight_tht_jack_132134.stp"

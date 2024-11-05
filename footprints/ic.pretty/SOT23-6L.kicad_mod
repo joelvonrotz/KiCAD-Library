@@ -138,7 +138,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "750cbb4d-10be-4a91-b844-7d54a6fadefe")
 	)
 	(pad "2" smd roundrect
@@ -146,7 +146,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "b79f54e4-9ae4-46d5-ae93-c4cf0885f1fa")
 	)
 	(pad "3" smd roundrect
@@ -154,7 +154,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "43a016ef-4bcd-454e-91d9-f6f88c17ec8b")
 	)
 	(pad "4" smd roundrect
@@ -162,7 +162,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "be73b56d-e3c5-4590-bc25-917abfcfbb1c")
 	)
 	(pad "5" smd roundrect
@@ -170,7 +170,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "ce2407cb-cd9c-45bb-8e27-b5f128bb3926")
 	)
 	(pad "6" smd roundrect
@@ -178,7 +178,7 @@
 		(size 0.6 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "35958265-8aa4-4bbf-9c71-4515cc060fca")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Package_SOT/SOT23-6L.STEP"

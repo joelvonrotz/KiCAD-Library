@@ -185,6 +185,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "ecd33f55-7744-4887-908b-809a5842254d")
 	)
 	(pad "1" thru_hole circle
@@ -193,6 +194,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "2c1e820c-6972-453e-ab52-fae0d6fda7e2")
 	)
 	(pad "1" thru_hole circle
@@ -201,6 +203,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "5a7b5fed-d775-40a5-8c92-80fd871efbb4")
 	)
 	(pad "1" thru_hole circle
@@ -209,6 +212,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "e2f964c0-4a44-40c5-bf59-34bfb110eaad")
 	)
 	(pad "1" thru_hole circle
@@ -217,6 +221,7 @@
 		(drill 2.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "05a0a420-665b-4eb5-a6f8-189aa544cc1d")
 	)
 	(pad "1" thru_hole circle
@@ -225,6 +230,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "f37e01c0-9170-42e2-9bc2-092319a19969")
 	)
 	(pad "1" thru_hole circle
@@ -233,6 +239,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "6b7fa9b8-7952-49b1-a3f2-525fedbf5be8")
 	)
 	(pad "1" thru_hole circle
@@ -241,6 +248,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "12a8c817-8cd3-40d9-87dc-617648d95369")
 	)
 	(pad "1" thru_hole circle
@@ -249,6 +257,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "F.Paste" "F.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "1fb04eab-f43d-4712-9b78-82d8e02b067f")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/McMaster_Screws/91290A051_Alloy Steel Socket Head Screw.STEP"

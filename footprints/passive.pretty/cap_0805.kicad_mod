@@ -179,6 +179,7 @@
 		(size 0.9 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 0)
 		(uuid "fbe4ca78-db1d-425c-822e-cbaf51a10d48")
 	)
 	(pad "2" smd roundrect
@@ -186,6 +187,7 @@
 		(size 0.9 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 0)
 		(uuid "afaec224-6eb9-4aa4-acce-937066a89442")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/capacitor/smd/CAP0805.igs"

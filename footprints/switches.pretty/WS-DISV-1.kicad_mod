@@ -178,7 +178,7 @@
 		(size 1.1 2.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.04545454545)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "ed95907c-0480-4896-9843-4cb1e84d1dd2")
 	)
 	(pad "2" smd roundrect
@@ -186,7 +186,7 @@
 		(size 1.1 2.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.04545454545)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "2557bb46-0820-42a5-b6c5-24de2cddd8e2")
 	)
 	(model "${KICAD_USER_3DMODEL_DIR}/WurthElektronik/418121160801.stp"

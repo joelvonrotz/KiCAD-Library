@@ -202,6 +202,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "1a6a2d38-d896-46ca-95a7-a8ce82cc3adc")
 	)
 	(pad "2" thru_hole circle
@@ -210,6 +211,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "d2f001d6-473c-4563-af33-45244247665a")
 	)
 	(pad "3" thru_hole circle
@@ -218,6 +220,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "ab59fb03-ce7a-43c1-bfd9-9b5ff6268da0")
 	)
 	(pad "4" thru_hole circle
@@ -226,6 +229,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "79317654-cbd1-4085-939c-99d89395b010")
 	)
 )

@@ -157,6 +157,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "f0ec4eb9-d409-4819-994c-4f960acd58fc")
 	)
 	(pad "2" thru_hole oval
@@ -165,6 +166,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "8a9b51c3-26cd-4597-bcdc-adc2fadb296a")
 	)
 	(pad "3" thru_hole oval
@@ -173,6 +175,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "cf1762f3-ae56-4b17-adf5-603c5a50a081")
 	)
 	(pad "4" thru_hole oval
@@ -181,6 +184,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "bb063169-415b-4952-9186-08745b43c9c9")
 	)
 	(model "${KICAD_USER_3DMODEL_DIR}/PhoenixContact/pxc_1725672_09_02_MPT-0-5-4-2-54_3D.stp"

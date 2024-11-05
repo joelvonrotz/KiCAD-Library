@@ -179,6 +179,7 @@
 		(size 0.7 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1428571429)
+		(thermal_bridge_angle 0)
 		(uuid "8a6a411d-204d-43ed-94fb-e96e770c773b")
 	)
 	(pad "2" smd roundrect
@@ -186,6 +187,7 @@
 		(size 0.7 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1428571429)
+		(thermal_bridge_angle 0)
 		(uuid "9bcbe648-8b58-4679-b991-5ade9ccff5d7")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/resistor/smd/RES0805.stp"

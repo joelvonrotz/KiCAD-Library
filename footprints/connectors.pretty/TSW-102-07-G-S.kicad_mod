@@ -202,6 +202,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "1a6a2d38-d896-46ca-95a7-a8ce82cc3adc")
 	)
 	(pad "2" thru_hole circle
@@ -210,6 +211,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "d2f001d6-473c-4563-af33-45244247665a")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Samtec/TSW/single/TSW-102-07-G-S.stp"

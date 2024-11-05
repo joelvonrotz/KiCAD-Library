@@ -186,6 +186,7 @@
 		(at -1.0625 -1.025 270)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -211,7 +212,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "8de87ad1-039b-4ffb-b412-3a21295031da")
 	)
 	(pad "3" smd roundrect
@@ -219,7 +220,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "876f313b-299d-481d-a168-1ec15d601d53")
 	)
 	(pad "4" smd roundrect
@@ -227,13 +228,14 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "70c4b315-289a-4896-91d5-15e5cadd4852")
 	)
 	(pad "5" smd custom
 		(at -1.0625 1.025 270)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -259,7 +261,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "ba533a12-bb75-4440-8b8e-1354bb3e74ec")
 	)
 	(pad "7" smd roundrect
@@ -267,13 +269,14 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "a5a24e8f-657a-498e-87d9-75a200ed84d6")
 	)
 	(pad "8" smd custom
 		(at 1.0625 1.025 90)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -299,7 +302,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "43358d50-ace1-4e77-8bad-07409738b78d")
 	)
 	(pad "10" smd roundrect
@@ -307,7 +310,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "61931abf-d513-4b7f-8c98-b57a20b21a71")
 	)
 	(pad "11" smd roundrect
@@ -315,13 +318,14 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "bd1ee6c2-35ab-4fd7-81b2-391c4b909570")
 	)
 	(pad "12" smd custom
 		(at 1.0625 -1.025 90)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -347,7 +351,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "f0405aef-4dd1-41e1-a4c0-c4f9d886c567")
 	)
 	(pad "14" smd roundrect
@@ -355,7 +359,7 @@
 		(size 0.25 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "61c371ff-ff47-4515-9f39-4707d59c46d6")
 	)
 	(pad "15" smd roundrect
@@ -363,7 +367,7 @@
 		(size 1 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.05)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "d2ca5681-6f4d-4580-99f1-b997dfa53227")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Package_VQFN/VQFN14-FCRLF_RXB0014A.stp"

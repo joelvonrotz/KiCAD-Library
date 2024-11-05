@@ -156,7 +156,7 @@
 		(size 2.65 7.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.03773584906)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "4782ecd5-5c89-4853-a7f5-3dfa880e5092")
 	)
 	(pad "2" smd roundrect
@@ -164,7 +164,7 @@
 		(size 2.65 7.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.03773584906)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "d8f946d4-d234-4f40-a864-27b44103a558")
 	)
 	(model "${KICAD_USER_BASE_DIR}/3dmodels/Sumida/CDRH6D28.step"

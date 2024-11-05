@@ -1,26 +1,184 @@
-(module fuse_MF_MSMF (layer F.Cu) (tedit 5EBE9C4E)
-  (fp_text reference REF** (at 0 2.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value fuse_MF_MSMF (at 0 -4) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.275 -1.62) (end -2.275 1.62) (layer F.Fab) (width 0.12))
-  (fp_line (start -2.275 1.62) (end 2.275 1.62) (layer F.Fab) (width 0.12))
-  (fp_line (start 2.275 1.62) (end 2.275 -1.62) (layer F.Fab) (width 0.12))
-  (fp_line (start 2.275 -1.62) (end -2.275 -1.62) (layer F.Fab) (width 0.12))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.5 0.5) (thickness 0.1)))
-  )
-  (fp_line (start -1.2 -1.7) (end 1.2 -1.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 1.2 1.7) (end -1.2 1.7) (layer F.SilkS) (width 0.12))
-  (fp_arc (start -2.275 0) (end -2.275 0.575) (angle -180) (layer F.Fab) (width 0.12))
-  (fp_arc (start 2.275 0) (end 2.275 -0.575) (angle -180) (layer F.Fab) (width 0.12))
-  (pad 1 smd rect (at -2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD_USER_3DMODEL_DIR}/Bourns/Resettable Multifuse/mf-msmf050.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "fuse_MF_MSMF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "2b963435-971a-47da-bb25-334619ba91df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "fuse_MF_MSMF"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa3838cb-7672-49f4-89a9-714c295b6274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14670d28-dabc-4a7c-b403-3ddab4f1c54a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "571fe786-7fb7-4dd2-b91d-a6c7ae983e1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b55644e-4749-4897-9984-eb56dba7f416")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.2 -1.7)
+		(end 1.2 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f5be4d5-caf9-4194-9ebc-8614df1758f4")
+	)
+	(fp_line
+		(start 1.2 1.7)
+		(end -1.2 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f63174ea-0190-4418-9b39-652622e16f0f")
+	)
+	(fp_line
+		(start -2.275 -1.62)
+		(end -2.275 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cf6bc48-bfac-4900-b9c9-43055b3132aa")
+	)
+	(fp_line
+		(start -2.275 1.62)
+		(end 2.275 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f682d374-7ef2-4617-8d1d-0d3834032829")
+	)
+	(fp_line
+		(start 2.275 -1.62)
+		(end -2.275 -1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01473c72-9feb-4489-9603-f9d76bc94bb5")
+	)
+	(fp_line
+		(start 2.275 1.62)
+		(end 2.275 -1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "441f605d-dc6d-4a81-a1cb-116b52f137f6")
+	)
+	(fp_arc
+		(start -2.275 -0.575)
+		(mid -1.7 0)
+		(end -2.275 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83937330-612e-4c3c-adbe-4542dade3485")
+	)
+	(fp_arc
+		(start 2.275 0.575)
+		(mid 1.7 0)
+		(end 2.275 -0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17e730fa-a108-4c58-a9c3-8b2f853f445f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2ea9de6a-0275-4a02-aeb5-941843ee3301")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.5 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "5bce6dae-cced-4036-8e7f-ab80dfbed4f0")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.5 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "6746482c-088b-49bf-a98a-30e890f2b2d7")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/Bourns/Resettable Multifuse/mf-msmf050.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
