@@ -72,7 +72,7 @@
 		(start -3.2 -2)
 		(end -3.2 2)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -82,7 +82,7 @@
 		(start 3.2 -2)
 		(end 3.2 2)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -90,9 +90,9 @@
 	)
 	(fp_circle
 		(center -3.3 2.45)
-		(end -3.1 2.45)
+		(end -3.2 2.45)
 		(stroke
-			(width 0)
+			(width 0.15)
 			(type default)
 		)
 		(fill solid)

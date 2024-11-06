@@ -152,7 +152,7 @@
 		(center -1.275 -2.2)
 		(end -1.175 -2.2)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill solid)

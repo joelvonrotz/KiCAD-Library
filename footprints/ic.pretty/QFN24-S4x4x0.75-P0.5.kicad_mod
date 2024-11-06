@@ -150,10 +150,10 @@
 		(center -2.4 -2.4)
 		(end -2.3 -2.4)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "9c8cf76d-78fb-452e-885b-81f15bc6a71e")
 	)
