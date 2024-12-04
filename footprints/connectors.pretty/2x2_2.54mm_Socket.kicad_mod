@@ -232,4 +232,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "79317654-cbd1-4085-939c-99d89395b010")
 	)
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/Samtec/TSW/double/TSW-102-07-G-D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
