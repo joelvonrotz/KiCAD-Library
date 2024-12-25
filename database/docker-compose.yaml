@@ -45,8 +45,3 @@ services:
     
       # If you use a reverse proxy in front of Part-DB, you must configure the trusted proxies IP addresses here (see reverse proxy documentation for more information):
       # - TRUSTED_PROXIES=127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16  
-      - PROVIDER_MOUSER_KEY=a2eb7007-3bc2-4af4-aff5-6fb3a333d628
-      - PROVIDER_DIGIKEY_CLIENT_ID=TznY5uXLAB4ZRZo551GI1PJJCYcyiAfT
-      - PROVIDER_DIGIKEY_SECRET=QYoaOWzcGndvkkUE
-      - PROVIDER_DIGIKEY_CURRENCY=CHF
-      - PROVIDER_DIGIKEY_COUNTRY=CH
